@@ -94,7 +94,7 @@
           <li>
             <RouterLink
               to="/AboutView"
-              :class="isRouteActive('/about') ? 'text-purple-800 font-bold' : 'text-gray-600 dark:text-blue-200 hover:text-purple-800'"
+              :class="isRouteActive('/AboutView') ? 'text-purple-800 font-bold' : 'text-gray-600 dark:text-blue-200 hover:text-purple-800'"
               @click="toggleMenu"
             >
               Մեր Մասին
