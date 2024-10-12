@@ -1,7 +1,3 @@
-<script setup>
-import HeaderSection from '@/components/HeaderSection.vue'
-</script>
-
 <template>
   <section class="relative h-screen bg-gray-100">
     <img
@@ -12,7 +8,7 @@ import HeaderSection from '@/components/HeaderSection.vue'
 
     <div class="relative z-10 flex flex-col items-center justify-center h-full">
       <h2 class="text-6xl font-bold text-blue-400 mb-10">Մեր Մասին</h2>
-      
+
     </div>
   </section>
 
