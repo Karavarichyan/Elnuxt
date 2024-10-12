@@ -11,4 +11,8 @@ export default defineNuxtConfig({
   },
 
   modules: ['@nuxtjs/tailwindcss'],
+
+  plugins: [
+    { src: '~/plugins/aos.js', mode: 'client' } // добавляем плагин AOS
+  ],
 })

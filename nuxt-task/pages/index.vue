@@ -1,18 +1,13 @@
-
-
 <template>
   <section class="relative h-screen bg-gray-100">
-    <!-- <img
+    <img
       src="/yerevan.jpg"
       alt="Background Image"
       class="absolute inset-0 w-full h-full object-cover"
-    /> -->
+    />
 
     <div class="relative z-10 flex flex-col items-center justify-center h-full">
       <h2 class="text-6xl font-bold text-blue-400 mb-10">Մեր Մասին</h2>
-      <p class="text-6xl text-blue-400 mt-8">
-        qcum enq gexecik katraum shat vat
-      </p>
     </div>
   </section>
 
@@ -56,7 +51,7 @@
             </div>
           </div>
         </div>
-<!--
+
         <div
           class="relative h-96 bg-cover bg-center rounded-lg overflow-hidden shadow-lg"
           style="background-image: url('/detalner.jpeg')"
@@ -72,7 +67,7 @@
               </p>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
   </section>
@@ -85,12 +80,13 @@
           էներգետիկ լուծումների որակ, հուսալիություն և անվտանգություն մեր բոլոր
           ծրագրերում։
         </p>
-        <a
-          href="#"
+        
+        <NuxtLink
+          to="/ContactForm"
           class="mt-6 inline-block bg-blue-500 text-white px-8 py-3 rounded-lg hover:bg-blue-600 transition"
         >
           Կապվել Մեզ հետ
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </section>

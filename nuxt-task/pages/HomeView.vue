@@ -12,9 +12,7 @@ import HeaderSection from '@/components/HeaderSection.vue'
 
     <div class="relative z-10 flex flex-col items-center justify-center h-full">
       <h2 class="text-6xl font-bold text-blue-400 mb-10">Մեր Մասին</h2>
-      <p class="text-6xl text-blue-400 mt-8">
-        qcum enq gexecik katraum shat vat
-      </p>
+      
     </div>
   </section>
 

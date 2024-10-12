@@ -12,11 +12,11 @@
 
       <div class="flex flex-wrap mb-10">
         <div class="w-full md:w-1/2 p-4">
-          <!-- <img
+          <img
             src="/transhe.jpeg"
             alt="Электрические траншеи"
             class="w-full h-auto rounded-lg shadow-md"
-          /> -->
+          />
         </div>
         <div class="w-full md:w-1/2 flex items-center p-4">
           <p class="text-lg text-gray-700">
@@ -37,21 +37,21 @@
           </p>
         </div>
         <div class="w-full md:w-1/2 p-4 order-1 md:order-2">
-          <!-- <img
+          <img
             src="/shitok.jpeg"
             alt="Электрощиты"
             class="w-full h-auto rounded-lg shadow-md"
-          /> -->
+          />
         </div>
       </div>
 
       <div class="flex flex-wrap mb-10">
         <div class="w-full md:w-1/2 p-4">
-          <!-- <img
+          <img
             src="/transformatr.jpeg"
             alt="Установка столбов и трансформаторов"
             class="w-full h-auto rounded-lg shadow-md"
-          /> -->
+          />
         </div>
         <div class="w-full md:w-1/2 flex items-center p-4">
           <p class="text-lg text-gray-700">
@@ -72,18 +72,13 @@
           </p>
         </div>
         <div class="w-full md:w-1/2 p-4 order-1 md:order-2">
-          <!-- <img
+          <img
             src="/sepakan.jpeg"
             alt="Электроснабжение частных домов"
             class="w-full h-auto rounded-lg shadow-md"
-          /> -->
+          />
         </div>
       </div>
     </div>
   </section>
 </template>
-
-<script setup>
-
-// import HeaderSection from '@/components/HeaderSection.vue'
-</script>
