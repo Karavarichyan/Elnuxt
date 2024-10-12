@@ -1,22 +1,22 @@
 <template>
-  <div
-    class="bg-gradient-to-r from-blue-200 via-blue-100 to-blue-200 py-10 w-full h-full"
-  >
+  <div class="bg-gradient-to-r from-blue-200 via-blue-100 to-blue-200 py-10 w-full h-full">
     <div
       class="max-w-6xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105"
+      data-aos="fade-up"
     >
       <div class="flex flex-wrap">
         <div class="w-full md:w-1/2">
-          <!-- <img
-            src="/elektro.jpeg"
+          <img
+            src="/dispp.jpeg"
             alt="Contact Us Image"
             class="w-full h-full object-cover transition duration-500 hover:brightness-90"
-          /> -->
+          />
+
         </div>
 
         <div class="w-full md:w-1/2 p-8">
           <h2 class="text-3xl font-bold mb-4 text-blue-900">
-            Свяжитесь с нами
+            Հանդիպեք մեզ հետ
           </h2>
 
           <div class="flex items-center mb-4">
@@ -71,38 +71,61 @@
                 d="M12 11a2 2 0 100-4 2 2 0 000 4z"
               />
             </svg>
-            <span class="text-lg font-medium">Ереван, ул. Абовяна 10</span>
+            <span class="text-lg font-medium">Երևան,  Աբովյան 10</span>
           </div>
+          <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.0705149470566!2d44.5152133153727!3d40.18272027939327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4041d8cf76b6c0c7%3A0x0!2z0KHQvdC10LrRgdGC0YHRjNC60LjQuSDRgtC10LvRjNC20Y8gMTA!5e0!3m2!1sru!2s!4v1696959330324!5m2!1sru!2s"
+          width="100%"
+          height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="bg-gray-100 py-6">
-    <div class="max-w-6xl mx-auto text-center">
-      <h3 class="text-2xl font-bold text-blue-900 mb-4">
-        Почему стоит выбрать нас?
-      </h3>
-      <p class="text-lg text-gray-700 mb-2">
-        Мы предлагаем профессиональный и надёжный сервис, которому вы можете
-        доверять. Наша команда опытных специалистов всегда готова предложить вам
-        решения, которые превзойдут ваши ожидания.
-      </p>
-      <p class="text-lg text-gray-700 mb-2">
-        Вы останетесь довольны качеством наших услуг, а наша миссия — обеспечить
-        комфорт и уверенность на каждом этапе взаимодействия.
-      </p>
-      <p class="text-lg text-gray-700 mb-2">
-        Мы ценим ваше время и делаем всё возможное, чтобы каждый клиент
-        чувствовал себя особенным и получил максимальную пользу от нашего
-        сотрудничества.
-      </p>
-      <p class="text-lg text-gray-700">
-        Обращайтесь к нам, и мы докажем, что вы сделали правильный выбор!
-      </p>
+
+    <div class="bg-gray-100 py-6">
+      <div class="max-w-6xl mx-auto text-center">
+        <h3 class="text-2xl font-bold text-blue-900 mb-4" data-aos="fade-up">
+          Ինչու ընտրել մեզ
+        </h3>
+        <p class="text-lg text-gray-700 mb-2" data-aos="fade-up" data-aos-delay="100">
+          Մենք առաջարկում ենք մասնագիտական և վստահելի ծառայություն, որին կարող եք վստահել:
+        </p>
+        <p class="text-lg text-gray-700 mb-2" data-aos="fade-up" data-aos-delay="200">
+          Մեր փորձառու մասնագետների թիմը միշտ պատրաստ է առաջարկել լուծումներ, որոնք կգերազանցեն ձեր ակնկալիքները:
+        </p>
+        <p class="text-lg text-gray-700 mb-2" data-aos="fade-up" data-aos-delay="300">
+          Դուք կբավարարվեք մեր ծառայությունների որակով, իսկ մեր առաքելությունն է ապահովել հարմարավետություն և վստահություն:
+        </p>
+        <p class="text-lg text-gray-700" data-aos="fade-up" data-aos-delay="400">
+          Կապվեք մեզ հետ, և մենք կ dokazենք, որ դուք ճիշտ ընտրություն եք կատարել:
+        </p>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
-// import HeaderSection from '@/components/HeaderSection.vue'
+import { onMounted } from 'vue';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+onMounted(() => {
+  AOS.init();
+});
 </script>
+
+<style scoped>
+.map-container {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+</style>

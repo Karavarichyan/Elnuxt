@@ -12,6 +12,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "nuxt": "^3.13.0",
+    "nuxt-aos": "^1.2.5",
     "vue": "latest",
     "vue-router": "latest"
   },
@@ -22,6 +23,6 @@
     "tailwindcss": "^3.4.13"
   },
   "engines": {
-    "node": ">=14.0.0" 
+    "node": ">=14.0.0"
   }
 }

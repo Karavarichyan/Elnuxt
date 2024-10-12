@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-aos'],
 
   plugins: [
     { src: '~/plugins/aos.js', mode: 'client' } // добавляем плагин AOS

@@ -1,12 +1,7 @@
 <template>
   <header class="bg-white dark:bg-blue-900 py-4 shadow sticky top-0 z-50">
     <div class="container mx-auto flex justify-between items-center">
-      <!-- <div class="flex items-center space-x-4">
-    <img src="/logo.webp" alt="Electric Logo" class="w-12 h-12 rounded-full" />
-    <h1 class="text-4xl font-bold text-blue-400 dark:text-blue-200 font-poppins">
-      Nelli Levon
-    </h1>
-  </div> --> <NuxtLink
+     <NuxtLink
   to="/"
   :class="{
     'text-blue-400 dark:text-blue-200': isRouteActive('/'),
@@ -16,7 +11,7 @@
 >
   <img src="/logo.webp" alt="Electric Logo" class="w-8 h-8 rounded-full inline-block align-middle mr-2" />
   <h1 class="text-4xl font-bold font-poppins">
-    Nelli Levon
+    Նելլի Լևոն
   </h1>
 </NuxtLink>
 
@@ -52,7 +47,7 @@
           <li>
             <RouterLink
               to="/AboutView"
-              :class="isRouteActive('/AboutView') ? 'text-purple-800 font-bold' : 'text-gray-600 dark:text-blue-200 hover:text-blue-600'"
+              :class="isRouteActive('/AboutView') ? 'text-blue-600 font-bold' : 'text-gray-600 dark:text-blue-200 hover:text-blue-600'"
             >
               Մեր Մասին
             </RouterLink>
