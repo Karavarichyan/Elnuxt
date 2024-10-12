@@ -93,7 +93,7 @@
           </li>
           <li>
             <RouterLink
-              to="/about"
+              to="/AboutView"
               :class="isRouteActive('/about') ? 'text-purple-800 font-bold' : 'text-gray-600 dark:text-blue-200 hover:text-purple-800'"
               @click="toggleMenu"
             >
